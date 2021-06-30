@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="js/bootstrap.bundle.js"></script>
+
+    <title>Health Track</title>
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <div class="row cabecalho container-fluid">
+                <div class="col-3">
+                    <button class="btn btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburguer">
+                    <img src="image/iconfinder_134216_menu_lines_hamburger_icon.svg" alt="menu">
+                    </button>
+                </div>
+                <div class="col-9">
+                    <h1 class="h1centralizado">
+                        Health Track
+                    </h1>
+                </div>
+            </div>
+        </header>
+
+        <aside id="hamburguer" class="offcanvas offcanvas-start" tabindex="-1">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Menu</h5>
+
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <div class="btn-group-vertical w-100">
+
+
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="index.html" class="text-white btn">Home</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                       <a href="pages/login.html" class="text-white btn">Login</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="pages/meta.html" class="text-white btn">Meta</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="pages/atividades.html" class="text-white btn">Atividade</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="pages/treino.html" class="text-white btn">Treino</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="pages/dieta.html" class="text-white btn">Dieta</a> </button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="pages/perfil.html" class="text-white btn">Perfil</a> </button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="pages/loja.html" class="text-white btn">Loja</a> </button>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <div class="container-fluid ">
+                <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="slide 1" style="color: white"></button>
+                        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="slide 2" style="color: white"></button>
+                        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="slide 3" style="color: white"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/fundo_negro.jpg" alt="fundo negro" class="w-100 h-edit">
+                            <div class="carousel-caption d-nome d-md-block">
+                                <h4 class="mar">Diário</h4>
+                                <a class="btn text-white" href="pages/meta_diaria.html">Metas Diárias</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="image/fundo_negro.jpg" alt="fundo negro" class="w-100 h-edit">
+                            <div class="carousel-caption d-nome d-md-block">
+                                <h4>Semanal</h4>
+                                <a class="btn text-white" href="pages/meta_semanal.html">Metas Semanais</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="image/fundo_negro.jpg" alt="fundo negro" class="w-100 h-edit">
+                            <div class="carousel-caption d-nome d-md-block">
+                                <h4>Mensal</h4>
+                                <a class="btn text-white" href="pages/meta_mensal.html">Metas Mensais</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+
+        <section id="lista-front ">
+            <div class="separar"></div>
+            <div class="row justify-content-start atividades rounded-3 ">
+                <div class="col-6">
+                    <span class="itens">Água</span>
+                </div>
+                <div class="col-6">
+                    <span class="total"> Consumi 500 ml</span>
+                </div>
+                <div class="col-6">
+                    <span class="adicionar">+ Adicionar</span>
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+
+            <div class="separar"></div>
+
+            <div class="row justify-content-start atividades rounded-3">
+                <div class="col-6">
+                    <span class="itens">Dieta</span>
+                </div>
+                <div class="col-6">
+                    <span class="total"> Consumi 1.500 Kcal</span>
+                </div>
+                <div class="col-6">
+                    <span class="adicionar">+ Adicionar</span>
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+
+            <div class="separar"></div>
+
+            <div class="row justify-content-start atividades rounded-3">
+                <div class="col-6">
+                    <span class="itens">Treino</span>
+                </div>
+                <div class="col-6">
+                    <span class="total">Queimei 1.000 kcal</span>
+                </div>
+                <div class="col-6">
+                    <span class="adicionar">+ Adicionar</span>
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+
+            <div class="separar"></div>
+
+            <div class="row justify-content-start atividades rounded-3">
+                <div class="col-6">
+                    <span class="itens">Caminhada</span>
+                </div>
+                <div class="col-6">
+                    <span class="total">Caminhei 5 Km</span>
+                </div>
+                <div class="col-6">
+                    <span class="adicionar">+ Adicionar</span>
+                </div>
+                <div class="col-6">
+                </div>
+            </div>
+
+            <div class="separar"></div>
+
+            <div class="row justify-content-start atividades rounded-3">
+                <div class="col-6">
+                    <span class="itens">Peso</span>
+                </div>
+                <div class="col-6">
+                    <span class="total">Meta 75 Kg</span>
+                </div>
+                <div class="col-6">
+                    <span class="adicionar">+ Adicionar</span>
+                </div>
+                <div class="col-6">
+                    <span class="meta">Peso atual 85 Kg</span>
+                </div>
+            </div>
+
+            <div class="separar"></div>
+        </section>
+
+        <footer>
+            <div class="row justify-content-start h-auto">
+                <div class="col-2 btn btn-primary ">
+                    <a class="central" href="pages/meta.html"> <img src="image/iconfinder_185041_target_arrow_icon.svg " alt="meta ">
+                        <br> <b> <span class="span_btn"> Meta </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary ">
+                    <a href="pages/treino.html">
+                        <img class="botoes" src="image/iconfinder_6172940_exercise_fitness_gym_home_quarantine0_icon.svg " alt="treino ">
+                        <br> <b> <span class="span_btn"> Treino </span> </b> </a>
+                </div>
+                <div class="col-2 btn  btn-primary">
+                    <a href="pages/atividades.html"> <img class="botoes" src="image/iconfinder_3671888_travel_walk_icon.svg" alt="atividade">
+                        <br> <b> <span class="span_btn"> Atividade </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary ">
+                    <a href="pages/dieta.html"> <img class="botoes" src="image/iconfinder_6643377_balance_diet_fitness_protein_vegetable_icon.svg " alt="dieta ">
+                        <br> <b> <span class="span_btn"> Dieta </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary">
+                    <a href="pages/perfil.html"> <img src="image/iconfinder_290120_account_avatar_man_profile_user_icon.svg" alt="perfil">
+                        <br> <b> <span class="span_btn"> Perfil </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary  ">
+                    <a href="pages/loja.html">
+                        <img class="botoes" src="image/iconfinder_2849824_store_shopping_market_buy_shop_icon.svg " alt="loja ">
+                        <br> <b> <span class="span_btn"> Loja </span> </b> </a>
+                </div>
+            </div>
+
+        </footer>
+
+    </main>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../myStyle.css">
+    <link rel="stylesheet" href="../css/">
+    <script src="../js/bootstrap.bundle.js"></script>
+
+    <title>Health Track</title>
+
+</head>
+
+<body>
+
+    <main class="container">
+
+        <header>
+            <div class="row cabecalho container-fluid">
+                <div class="col-3">
+                    <button class="btn btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#hamburguer">
+                    <img src="../image/iconfinder_134216_menu_lines_hamburger_icon.svg" alt="menu">
+                    </button>
+                </div>
+                <div class="col-9">
+                    <h1 class="h1centralizado">
+                        Meta
+                    </h1>
+                </div>
+            </div>
+        </header>
+
+        <aside id="hamburguer" class="offcanvas offcanvas-start" tabindex="-1">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Menu</h5>
+
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+                <div class="btn-group-vertical w-100">
+
+
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="../index.html" class="text-white btn">Home</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                       <a href="../pages/login.html" class="text-white btn">Login</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="../pages/meta.html" class="text-white btn">Meta</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="../pages/atividades.html" class="text-white btn">Atividade</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="../pages/treino.html" class="text-white btn">Treino</a></button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="../pages/dieta.html" class="text-white btn">Dieta</a> </button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="../pages/perfil.html" class="text-white btn">Perfil</a> </button>
+                    <button type="button" class="btn-group btn-primary">
+                        <a href="../pages/loja.html" class="text-white btn">Loja</a> </button>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <form>
+                <div class="separar"></div>
+
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Exemplo 1500kcal (Consumo Kcal)">
+                    <label for="floatingInput">Alimentação <span class="text-muted">(Consumo Kcal)</span> </label>
+                </div>
+                <div class="separar"></div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Exemplo 1500kcal (Queimar Kcal)">
+                    <label for="floatingInput">Treino <span class="text-muted">(Queimar Kcal)</span> </label>
+                </div>
+                <div class="separar"></div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Exemplo 5 km (Caminhada)">
+                    <label for="floatingInput">Atividade<span class="text-muted">(Distância km)</span> </label>
+                </div>
+                <div class="separar"></div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Exemplo 15Kg">
+                    <label for="floatingInput">Peso Meta <span class="text-muted">(Kg)</span> </label>
+                </div>
+                <div class="separar"></div>
+
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Aplicar</button>
+                <div class="separar"></div>
+            </form>
+
+        </main>
+
+
+
+        <footer>
+            <div class="row justify-content-start h-auto">
+                <div class="col-2 btn btn-primary ">
+                    <a class="central" href="../pages/meta.html"> <img src="../image/iconfinder_185041_target_arrow_icon.svg " alt="meta ">
+                        <br> <b> <span class="span_btn"> Meta </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary ">
+                    <a href="treino.html">
+                        <img class="botoes" src="../image/iconfinder_6172940_exercise_fitness_gym_home_quarantine0_icon.svg " alt="treino ">
+                        <br> <b> <span class="span_btn"> Treino </span> </b> </a>
+                </div>
+                <div class="col-2 btn  btn-primary">
+                    <a href="atividades.html"> <img class="botoes" src="../image/iconfinder_3671888_travel_walk_icon.svg" alt="atividade">
+                        <br> <b> <span class="span_btn"> Atividade </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary ">
+                    <a href="dieta.html"> <img class="botoes" src="../image/iconfinder_6643377_balance_diet_fitness_protein_vegetable_icon.svg " alt="dieta ">
+                        <br> <b> <span class="span_btn"> Dieta </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary">
+                    <a href="perfil.html"> <img src="../image/iconfinder_290120_account_avatar_man_profile_user_icon.svg" alt="perfil">
+                        <br> <b> <span class="span_btn"> Perfil </span> </b> </a>
+                </div>
+                <div class="col-2 btn btn-primary  ">
+                    <a href="loja.html">
+                        <img class="botoes" src="../image/iconfinder_2849824_store_shopping_market_buy_shop_icon.svg " alt="loja ">
+                        <br> <b> <span class="span_btn"> Loja </span> </b> </a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+
+</body>
+
+</html>
